@@ -1,0 +1,15 @@
+# File produced by Open Asset Import Library (http://www.assimp.sf.net)
+# (assimp v3.1.128981410)
+
+newmtl 03 - Default
+illum 1
+
+newmtl 02 - Default
+illum 1
+
+newmtl Ceramic
+illum 1
+
+newmtl Wall Paint
+illum 1
+
