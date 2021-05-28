@@ -270,7 +270,7 @@ Material:
     - _SSRefractionProjectionModel: 0
     - _Saturation: 0
     - _Smoothness: 0.5
-    - _SmoothnessRemapMax: 1
+    - _SmoothnessRemapMax: 0.41350555
     - _SmoothnessRemapMin: 0
     - _SmoothnessTextureChannel: 0
     - _Source: 0

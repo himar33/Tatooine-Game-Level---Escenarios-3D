@@ -30,7 +30,32 @@ ModelImporter:
   - first:
       74: -3558032504928968949
     second: RightWingTurret|WingRotationAction.001
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlueEngineGlow
+    second: {fileID: 2100000, guid: 75384f51b87002447890802d827fdf0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ReflectiveGlass
+    second: {fileID: 2100000, guid: c499c62ab009d5841ac9c9d66275a02f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ScratchedMetal
+    second: {fileID: 2100000, guid: 33839e523418fc045b2a0ffd6e8a1e2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ScratchedMetalDark
+    second: {fileID: 2100000, guid: 77aae311cb9ff6f4fa4c811bfc76e9a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YellowGlow
+    second: {fileID: 2100000, guid: 33e59ec5614038b41a9747e91915cc6b, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
