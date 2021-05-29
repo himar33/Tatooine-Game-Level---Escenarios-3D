@@ -3,27 +3,7 @@ guid: da2742643227ca74a9bbe3a88d182c45
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Ceramic
-    second: {fileID: 2100000, guid: a4d53333a3521df48980f6c920fcab10, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: DoorL
-    second: {fileID: 2100000, guid: 135200f12899c2a42914f1910ff066d3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: HouseL
-    second: {fileID: 2100000, guid: 05bdf1f2335115a4f83f83046add463a, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Wall Paint
-    second: {fileID: 2100000, guid: 4d0348da47a61184e804443da5aee61c, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 1
     materialName: 0
