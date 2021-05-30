@@ -163,9 +163,11 @@
     <Compile Include="Assets\Player\FirstPersonCharacter\Standard Assets\Vehicles\Car\Scripts\Suspension.cs" />
     <Compile Include="Assets\Player\FirstPersonCharacter\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
     <Compile Include="Assets\Scripts\DoorRaycast.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\GroundBehaviour.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\MyDoorController.cs" />
+    <Compile Include="Assets\Scripts\ProgressBar.cs" />
     <Compile Include="Assets\Scripts\Raycast.cs" />
     <Compile Include="Assets\Scripts\RotationScript.cs" />
     <Compile Include="Assets\Scripts\SettingsMenu.cs" />
