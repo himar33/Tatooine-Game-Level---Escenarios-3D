@@ -10,8 +10,6 @@ ScriptsOnlyBuild:
     - RotationScript
     - SettingsMenu
     - UnityStandardAssets.Characters.FirstPerson.FirstPersonController
-    Unity.RenderPipelines.Core.Editor.dll:
-    - UnityEditor.Rendering.VolumeProfileEditor
     Unity.RenderPipelines.Core.Runtime.dll:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
     - UnityEngine.Rendering.UI.DebugUIHandlerButton
@@ -193,37 +191,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14166}
     - Class: 114
-      Script: {instanceID: 14382}
+      Script: {instanceID: 14316}
     - Class: 114
-      Script: {instanceID: 14590}
+      Script: {instanceID: 14384}
     - Class: 114
-      Script: {instanceID: 14692}
+      Script: {instanceID: 14592}
     - Class: 114
-      Script: {instanceID: 14756}
+      Script: {instanceID: 14694}
     - Class: 114
-      Script: {instanceID: 14882}
+      Script: {instanceID: 14758}
     - Class: 114
-      Script: {instanceID: 14918}
+      Script: {instanceID: 14884}
     - Class: 114
-      Script: {instanceID: 15396}
+      Script: {instanceID: 14920}
     - Class: 114
-      Script: {instanceID: 15996}
+      Script: {instanceID: 15398}
     - Class: 114
-      Script: {instanceID: 16348}
+      Script: {instanceID: 15998}
     - Class: 114
-      Script: {instanceID: 16432}
+      Script: {instanceID: 16350}
     - Class: 114
-      Script: {instanceID: 16972}
+      Script: {instanceID: 16434}
     - Class: 114
-      Script: {instanceID: 17176}
+      Script: {instanceID: 16974}
     - Class: 114
-      Script: {instanceID: 17304}
+      Script: {instanceID: 17178}
     - Class: 114
-      Script: {instanceID: 17346}
+      Script: {instanceID: 17306}
     - Class: 114
-      Script: {instanceID: 17352}
+      Script: {instanceID: 17348}
     - Class: 114
-      Script: {instanceID: 79716}
+      Script: {instanceID: 17354}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -340,63 +338,63 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14176}
     - Class: 114
-      Script: {instanceID: 14346}
+      Script: {instanceID: 14348}
     - Class: 114
-      Script: {instanceID: 14404}
+      Script: {instanceID: 14406}
     - Class: 114
-      Script: {instanceID: 14836}
+      Script: {instanceID: 14838}
     - Class: 114
-      Script: {instanceID: 14882}
+      Script: {instanceID: 14884}
     - Class: 114
-      Script: {instanceID: 15290}
+      Script: {instanceID: 15292}
     - Class: 114
-      Script: {instanceID: 15392}
+      Script: {instanceID: 15394}
     - Class: 114
-      Script: {instanceID: 15396}
+      Script: {instanceID: 15398}
     - Class: 114
-      Script: {instanceID: 15418}
+      Script: {instanceID: 15420}
     - Class: 114
-      Script: {instanceID: 15432}
+      Script: {instanceID: 15434}
     - Class: 114
-      Script: {instanceID: 15632}
+      Script: {instanceID: 15634}
     - Class: 114
-      Script: {instanceID: 15682}
+      Script: {instanceID: 15684}
     - Class: 114
-      Script: {instanceID: 15692}
+      Script: {instanceID: 15694}
     - Class: 114
-      Script: {instanceID: 15996}
+      Script: {instanceID: 15998}
     - Class: 114
-      Script: {instanceID: 16160}
+      Script: {instanceID: 16162}
     - Class: 114
-      Script: {instanceID: 16252}
+      Script: {instanceID: 16254}
     - Class: 114
-      Script: {instanceID: 16652}
+      Script: {instanceID: 16654}
     - Class: 114
-      Script: {instanceID: 16710}
+      Script: {instanceID: 16712}
     - Class: 114
-      Script: {instanceID: 16772}
+      Script: {instanceID: 16774}
     - Class: 114
-      Script: {instanceID: 16874}
+      Script: {instanceID: 16876}
     - Class: 114
-      Script: {instanceID: 16948}
+      Script: {instanceID: 16950}
     - Class: 114
-      Script: {instanceID: 17012}
+      Script: {instanceID: 17014}
     - Class: 114
-      Script: {instanceID: 17290}
+      Script: {instanceID: 17292}
     - Class: 114
-      Script: {instanceID: 17296}
+      Script: {instanceID: 17298}
     - Class: 114
-      Script: {instanceID: 17346}
+      Script: {instanceID: 17348}
     - Class: 114
-      Script: {instanceID: 17352}
+      Script: {instanceID: 17354}
     - Class: 114
-      Script: {instanceID: 17384}
+      Script: {instanceID: 17386}
     - Class: 114
-      Script: {instanceID: 17444}
+      Script: {instanceID: 17446}
     - Class: 114
-      Script: {instanceID: 17578}
+      Script: {instanceID: 17580}
     - Class: 114
-      Script: {instanceID: 17584}
+      Script: {instanceID: 17586}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1310,6 +1308,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.HighDefinition.Runtime.dll
     namespaceName: UnityEngine.Rendering.HighDefinition
     className: VolumetricFog
+  - hash:
+      serializedVersion: 2
+      Hash: e8ce291ddcf9e4f4b4ecb03bc80de2c0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PauseMenu
   - hash:
       serializedVersion: 2
       Hash: 3375c3d749f8f4cad889721b431bdc27
@@ -2456,12 +2460,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualEffectGraph.Runtime.dll
     namespaceName: UnityEngine.VFX.Utility
     className: VFXUISliderBinder
-  - hash:
-      serializedVersion: 2
-      Hash: e8ce291ddcf9e4f4b4ecb03bc80de2c0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PauseMenu
   platform: 5
   scenePathNames:
   - Assets/Scenes/Menu.unity
