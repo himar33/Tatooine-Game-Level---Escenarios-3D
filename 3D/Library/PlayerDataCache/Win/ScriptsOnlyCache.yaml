@@ -179,6 +179,8 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 11648}
+    - Class: 114
       Script: {instanceID: 11652}
     - Class: 114
       Script: {instanceID: 11656}
@@ -2488,5 +2490,5 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/Game.unity
-  playerPath: D:/Github/Tatooine-Game-Level---Escenarios-3D/Build/The Remnant of
-    the Mandalorian.exe
+  playerPath: D:/Github/Tatooine-Game-Level---Escenarios-3D/The Remnant of the Mandalorian/The
+    Remnant of the Mandalorian_Data/The Remnant of the Mandalorian.exe
