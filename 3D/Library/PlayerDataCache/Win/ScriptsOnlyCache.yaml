@@ -60,6 +60,7 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.HighDefinition.PaniniProjection
     - UnityEngine.Rendering.HighDefinition.RenderPipelineResources
     - UnityEngine.Rendering.HighDefinition.ScreenSpaceReflection
+    - UnityEngine.Rendering.HighDefinition.ShadowsMidtonesHighlights
     - UnityEngine.Rendering.HighDefinition.StaticLightingSky
     - UnityEngine.Rendering.HighDefinition.Tonemapping
     - UnityEngine.Rendering.HighDefinition.Vignette
@@ -68,15 +69,31 @@ ScriptsOnlyBuild:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TerrainTools.Editor.dll:
     - UnityEditor.Experimental.TerrainAPI.BillowNoise
+    - UnityEditor.Experimental.TerrainAPI.BridgeTool
+    - UnityEditor.Experimental.TerrainAPI.CloneBrushTool
+    - UnityEditor.Experimental.TerrainAPI.ContrastTool
     - UnityEditor.Experimental.TerrainAPI.FbmFractalType
+    - UnityEditor.Experimental.TerrainAPI.MeshStampTool
     - UnityEditor.Experimental.TerrainAPI.NoiseBlitShaderGenerator
     - UnityEditor.Experimental.TerrainAPI.NoiseFillShaderGenerator
+    - UnityEditor.Experimental.TerrainAPI.NoiseHeightTool
     - UnityEditor.Experimental.TerrainAPI.NoneFractalType
+    - UnityEditor.Experimental.TerrainAPI.PaintHeightTool
+    - UnityEditor.Experimental.TerrainAPI.PaintHolesTool
+    - UnityEditor.Experimental.TerrainAPI.PaintTextureTool
     - UnityEditor.Experimental.TerrainAPI.PerlinNoise
     - UnityEditor.Experimental.TerrainAPI.RidgeNoise
+    - UnityEditor.Experimental.TerrainAPI.SetHeightTool
+    - UnityEditor.Experimental.TerrainAPI.SharpenPeaksTool
+    - UnityEditor.Experimental.TerrainAPI.SlopeFlattenTool
+    - UnityEditor.Experimental.TerrainAPI.SmoothHeightTool
+    - UnityEditor.Experimental.TerrainAPI.StampTool
     - UnityEditor.Experimental.TerrainAPI.StrataFractalType
+    - UnityEditor.Experimental.TerrainAPI.TerraceErosion
+    - UnityEditor.Experimental.TerrainAPI.ThermalErosionTool
     - UnityEditor.Experimental.TerrainAPI.ValueNoise
     - UnityEditor.Experimental.TerrainAPI.VoronoiNoise
+    - UnityEditor.Experimental.TerrainAPI.WindErosionTool
     Unity.TerrainTools.dll:
     - TerrainGroup
     Unity.TextMeshPro.dll:
@@ -108,6 +125,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.LayoutElement
     - UnityEngine.UI.Mask
+    - UnityEngine.UI.RawImage
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Scrollbar
     - UnityEngine.UI.Slider
@@ -148,6 +166,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 91
@@ -159,13 +179,15 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11648}
-    - Class: 114
       Script: {instanceID: 11652}
     - Class: 114
       Script: {instanceID: 11656}
     - Class: 114
+      Script: {instanceID: 11660}
+    - Class: 114
       Script: {instanceID: 11664}
+    - Class: 114
+      Script: {instanceID: 11674}
     - Class: 114
       Script: {instanceID: 11818}
     - Class: 114
@@ -200,6 +222,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14694}
     - Class: 114
       Script: {instanceID: 14758}
+    - Class: 114
+      Script: {instanceID: 14850}
     - Class: 114
       Script: {instanceID: 14884}
     - Class: 114
